@@ -19,6 +19,13 @@
 		795E0D5B1684583400E8DA91 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795E0D591684583400E8DA91 /* MainStoryboard_iPhone.storyboard */; };
 		795E0D5E1684583400E8DA91 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795E0D5C1684583400E8DA91 /* MainStoryboard_iPad.storyboard */; };
 		795E0D611684583400E8DA91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795E0D601684583400E8DA91 /* ViewController.m */; };
+		795E0D6916845EC300E8DA91 /* record-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 795E0D6816845EC300E8DA91 /* record-icon.png */; };
+		795E0D6D16845F9900E8DA91 /* RecordingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 795E0D6C16845F9900E8DA91 /* RecordingView.m */; };
+		795E0D761684672700E8DA91 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795E0D751684672700E8DA91 /* QuartzCore.framework */; };
+		795E0D781684672D00E8DA91 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795E0D771684672D00E8DA91 /* AVFoundation.framework */; };
+		795E0D7B168474D100E8DA91 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795E0D79168474D100E8DA91 /* CoreMedia.framework */; };
+		795E0D7C168474D100E8DA91 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795E0D7A168474D100E8DA91 /* MediaPlayer.framework */; };
+		795E0D7E168474ED00E8DA91 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795E0D7D168474ED00E8DA91 /* CoreVideo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +46,14 @@
 		795E0D5D1684583400E8DA91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		795E0D5F1684583400E8DA91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		795E0D601684583400E8DA91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		795E0D6816845EC300E8DA91 /* record-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record-icon.png"; sourceTree = "<group>"; };
+		795E0D6B16845F9900E8DA91 /* RecordingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecordingView.h; path = RecordingView/RecordingView.h; sourceTree = "<group>"; };
+		795E0D6C16845F9900E8DA91 /* RecordingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecordingView.m; path = RecordingView/RecordingView.m; sourceTree = "<group>"; };
+		795E0D751684672700E8DA91 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		795E0D771684672D00E8DA91 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		795E0D79168474D100E8DA91 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		795E0D7A168474D100E8DA91 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		795E0D7D168474ED00E8DA91 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +61,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795E0D7E168474ED00E8DA91 /* CoreVideo.framework in Frameworks */,
+				795E0D781684672D00E8DA91 /* AVFoundation.framework in Frameworks */,
+				795E0D7B168474D100E8DA91 /* CoreMedia.framework in Frameworks */,
+				795E0D7C168474D100E8DA91 /* MediaPlayer.framework in Frameworks */,
+				795E0D761684672700E8DA91 /* QuartzCore.framework in Frameworks */,
 				795E0D421684583400E8DA91 /* UIKit.framework in Frameworks */,
 				795E0D441684583400E8DA91 /* Foundation.framework in Frameworks */,
 				795E0D461684583400E8DA91 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +95,11 @@
 		795E0D401684583400E8DA91 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				795E0D7D168474ED00E8DA91 /* CoreVideo.framework */,
+				795E0D79168474D100E8DA91 /* CoreMedia.framework */,
+				795E0D7A168474D100E8DA91 /* MediaPlayer.framework */,
+				795E0D771684672D00E8DA91 /* AVFoundation.framework */,
+				795E0D751684672700E8DA91 /* QuartzCore.framework */,
 				795E0D411684583400E8DA91 /* UIKit.framework */,
 				795E0D431684583400E8DA91 /* Foundation.framework */,
 				795E0D451684583400E8DA91 /* CoreGraphics.framework */,
@@ -85,6 +110,7 @@
 		795E0D471684583400E8DA91 /* SHDemo */ = {
 			isa = PBXGroup;
 			children = (
+				795E0D6A16845F4800E8DA91 /* RecordingView */,
 				795E0D501684583400E8DA91 /* AppDelegate.h */,
 				795E0D511684583400E8DA91 /* AppDelegate.m */,
 				795E0D591684583400E8DA91 /* MainStoryboard_iPhone.storyboard */,
@@ -99,6 +125,7 @@
 		795E0D481684583400E8DA91 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				795E0D6716845EC300E8DA91 /* images */,
 				795E0D491684583400E8DA91 /* SHDemo-Info.plist */,
 				795E0D4A1684583400E8DA91 /* InfoPlist.strings */,
 				795E0D4D1684583400E8DA91 /* main.m */,
@@ -108,6 +135,23 @@
 				795E0D571684583400E8DA91 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		795E0D6716845EC300E8DA91 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				795E0D6816845EC300E8DA91 /* record-icon.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		795E0D6A16845F4800E8DA91 /* RecordingView */ = {
+			isa = PBXGroup;
+			children = (
+				795E0D6B16845F9900E8DA91 /* RecordingView.h */,
+				795E0D6C16845F9900E8DA91 /* RecordingView.m */,
+			);
+			name = RecordingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +211,7 @@
 				795E0D581684583400E8DA91 /* Default-568h@2x.png in Resources */,
 				795E0D5B1684583400E8DA91 /* MainStoryboard_iPhone.storyboard in Resources */,
 				795E0D5E1684583400E8DA91 /* MainStoryboard_iPad.storyboard in Resources */,
+				795E0D6916845EC300E8DA91 /* record-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +225,7 @@
 				795E0D4E1684583400E8DA91 /* main.m in Sources */,
 				795E0D521684583400E8DA91 /* AppDelegate.m in Sources */,
 				795E0D611684583400E8DA91 /* ViewController.m in Sources */,
+				795E0D6D16845F9900E8DA91 /* RecordingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

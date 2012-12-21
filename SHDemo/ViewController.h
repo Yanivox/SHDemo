@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RecordingView.h"
 
 @interface ViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet RecordingView *recordingView;
 
 @end
